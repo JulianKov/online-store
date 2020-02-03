@@ -1,0 +1,18 @@
+.BuyBtn {
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #FF6700;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FF6700;
+    cursor: pointer;
+    transition: color, background-color .5s ;
+}
+
+.BuyBtn:hover {
+    color: #ffffff;
+    background-color: #FF6700;
+}

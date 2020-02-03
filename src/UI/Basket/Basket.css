@@ -1,0 +1,34 @@
+.Basket {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color ease-in .2s;
+}
+
+.Basket:hover, .Basket:hover span {
+    color: #FF6700;
+}
+
+.Basket span {
+    transition: color ease-in .2s;
+}
+
+.Basket>i {
+    font-size: 40px;
+}
+
+.basketInfo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.basketInfo>span:last-child {
+    color: #FF6700;
+    font-size: 14px;
+}

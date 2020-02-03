@@ -1,0 +1,39 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Сatalog {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+    height: 600px;
+    margin-left: 20px;
+}
+
+.Сatalog>div {
+    display: flex;
+    margin-bottom: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link:hover, .active {
+    color: #424242;
+    text-decoration: underline;
+}
+
+.Catalog i {
+    font-size: 24px;
+    padding-top: 3px;
+}

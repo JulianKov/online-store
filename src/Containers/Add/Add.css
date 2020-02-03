@@ -1,0 +1,52 @@
+.Add {
+    margin: 0 auto;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+}
+
+.Add form {
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: 190px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #FF6700;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FF6700;
+    cursor: pointer;
+    transition: color, background-color .5s ;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #FF6700;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    color: #ffffff;
+    border: 1px solid #686868;
+}
+
+button:disabled:hover {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}

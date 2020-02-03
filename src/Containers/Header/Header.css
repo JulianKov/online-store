@@ -1,0 +1,27 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 20px;
+    transition: text-decoration, color ease-in .2s;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #FF6700;
+}
+
+.active {
+    color: #FF6700;
+}

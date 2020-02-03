@@ -1,0 +1,15 @@
+.Logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo div {
+    width: 220px;
+    height: 60px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #ffffff;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+}

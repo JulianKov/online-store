@@ -1,0 +1,17 @@
+.Categories {
+    margin-left: 40px;
+}
+
+.Categories>span {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 300;
+    color: #424242;
+    padding-bottom: 25px;
+}
+
+.Categories>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

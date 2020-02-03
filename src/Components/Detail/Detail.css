@@ -1,0 +1,19 @@
+.Detail {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Image {
+    margin-right: 40px;
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+}
+
+.Description>span {
+    font-size: 40px;
+    color: #FF6700;
+}
